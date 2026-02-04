@@ -1,6 +1,6 @@
 <?php
 session_start();
-$correct_pin = "1234"; // お好きな番号に変えてください
+$correct_pin = "831073"; // お好きな番号に変えてください
 $error = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {

@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h1>🔓 暗証番号入力</h1>
         <p style="color: #666;">PINコードを入力してね</p>
         <form method="POST">
-            <input type="password" name="pin" inputmode="numeric" maxlength="4" placeholder="****" required>
+            <input type="password" name="pin" inputmode="numeric" maxlength="6" placeholder="****" required>
             <br>
             <button type="submit">あける</button>
         </form>
